@@ -1,0 +1,144 @@
+body {
+  width: 100%;
+  min-width: 480px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+p {
+  text-align: center;
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3vw;
+}
+
+section {
+  border: 1px solid black;
+}
+
+.a {
+  box-sizing: border-box;
+  background: rgba(172, 20, 20, 0.692);
+  width: 100%;
+  height: 75px;
+}
+
+.b {
+  box-sizing: border-box;
+  background: rgba(31, 180, 190, 0.692);
+  width: 100%;
+  height: 150px;
+}
+
+.c {
+  box-sizing: border-box;
+  background: rgba(71, 204, 111, 0.692);
+  width: 100%;
+  height: 125px;
+}
+
+.d {
+  box-sizing: border-box;
+  background: rgba(160, 43, 135, 0.692);
+  width: 100%;
+  height: 125px;
+}
+
+.e {
+  box-sizing: border-box;
+  background: rgba(233, 245, 70, 0.692);
+  width: 50%;
+  height: 250px;
+  float: left;
+}
+
+.f {
+  box-sizing: border-box;
+  background: rgba(36, 161, 124, 0.692);
+  width: 50%;
+  height: 250px;
+  float: left;
+}
+
+.g {
+  box-sizing: border-box;
+  background: rgba(170, 111, 0, 0.692);
+  width: 50%;
+  height: 250px;
+  float: left;
+}
+
+.h {
+  box-sizing: border-box;
+  background: rgba(55, 22, 177, 0.692);
+  width: 50%;
+  height: 250px;
+  float: left;
+}
+
+.i {
+  box-sizing: border-box;
+  background: rgba(212, 9, 168, 0.692);
+  width: 100%;
+  height: 80px;
+  clear: both;
+}
+
+@media only screen and (min-width: 768px) {
+  .a {
+    width: 100%;
+    height: 100px;
+  }
+
+  .b {
+    width: 20.83%;
+    height: 600px;
+    float: left;
+  }
+
+  .c {
+    width: 39.58%;
+    height: 200px;
+    float: left;
+  }
+  
+  .d {
+    width: 39.58%;
+    height: 200px;
+    float: left;
+  }
+  
+  .e {
+    width: 19.79%;
+    height: 250px;
+    float: left;
+  }
+  
+  .f {
+    width: 19.79%;
+    height: 250px;
+    float: left;
+  }
+  
+  .g {
+    width: 19.79%;
+    height: 250px;
+    float: left;
+  }
+  
+  .h {
+    width: 19.79%;
+    height: 250px;
+    float: left;
+  }
+  
+  .i {
+    width: 79.16%;
+    height: 150px;
+    display: inline-block;
+  }
+  
+}
